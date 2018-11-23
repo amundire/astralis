@@ -24,7 +24,7 @@ github_username: "amundire"
 
 # Build settings
 markdown: kramdown
-theme: minima
+
 plugins:
   - jekyll-feed
 

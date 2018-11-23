@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>{{ site.title }}</title>
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" type="text/css" />
+		<title>{{ site.baseurl }}</title>
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css" type="text/css" />
 	</head>
 	<body class="{% if page.type %}{{page.type}} {% endif %}{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
 		<div class="site">
@@ -32,7 +32,7 @@
 			<main class="site-content">
 			
 				{{content}}
-			
+                <p>{{site.baseurl}}</p>
 			</main>
 			<footer class="site-footer">
 			
