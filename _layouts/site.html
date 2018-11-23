@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>{{ site.baseurl }}</title>
-		<link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css" type="text/css" />
+		<title>{{site.title}}</title>
+		<link rel="stylesheet" href="{{site.baseurl}}/css/styles.css" type="text/css" />
 	</head>
 	<body class="{% if page.type %}{{page.type}} {% endif %}{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
 		<div class="site">
@@ -15,11 +15,9 @@
 					<p class="site-title">
 						<a href="{{ site.baseurl }}/">{{ site.title }}</a>
 					</p>
-					<p class="site-description">{{ site.description }}</p>
 				</div>
 
-				<label id="nav-toggle-left" for="nav-main-toggle" class="fas nav-toggle left"><span>Menu</span></label>
-				<label id="nav-toggle-right" for="nav-main-toggle" class="fas nav-toggle right"><span>Menu</span></label>
+				<label id="nav-toggle" for="nav-main-toggle" class="fas nav-toggle right"><span>Menu</span></label>
 				<nav class="navigation main">
 					<ul>
 						<li><a class="fas fa-newspaper" href="{{ site.baseurl }}/">Blog</a></li>
@@ -30,9 +28,7 @@
 				</nav>
 			</header>
 			<main class="site-content">
-			
 				{{content}}
-                <p>{{site.baseurl}}</p>
 			</main>
 			<footer class="site-footer">
 			
