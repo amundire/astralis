@@ -3,8 +3,8 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #1A1537;
-    border-bottom: 1px solid #593A99;
+    background-color: var(--astr-background-color);
+    border-bottom: 1px solid var(--astr-border-color);
 }
 
 input#nav-main-toggle{
@@ -40,7 +40,7 @@ nav.main > ul > li:not(:last-child){
     margin: 3px;
     padding: 6px 12px !important;
     border: 1px solid #9393f5;
-    color: #fff !important;
+    color: var(--default) !important;
     border-radius: 1px !important;
     background: linear-gradient(to right, rgba(32, 12, 59, 0.9), #58398b, rgba(32, 12, 59, 0.9));
 }

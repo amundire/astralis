@@ -18,10 +18,10 @@ html {
 
 header{
     display: flex;
-    background-color: #1A1537 !important;
-    border-bottom: 1px solid #593A99;
+    background-color: var(--astr-background-color) !important;
+    border-bottom: 1px solid var(--astr-border-color);
 }
 
 main{
-    background-color: #1A1537 !important;
+    background-color: var(--astr-background-color) !important;
 }
