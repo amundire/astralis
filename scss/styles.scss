@@ -1,0 +1,27 @@
+@import url('reset.css');
+@import url('variables.css');
+@import url('typography.css');
+@import url('navigation.css');
+
+html {
+    background: url(../images/background-image.jpg);
+    color: var(--default-text-color);
+}
+
+.site-title a{
+    text-decoration: none;
+    font-size: 32;
+    text-shadow: 0 0 15px #9393f5;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header{
+    display: flex;
+    background-color: #1A1537 !important;
+    border-bottom: 1px solid #593A99;
+}
+
+main{
+    background-color: #1A1537 !important;
+}
