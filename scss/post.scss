@@ -1,0 +1,36 @@
+.site-post{
+    display: block;
+}
+
+article{
+    padding: 2rem;
+    max-width: 70vw;
+    .post-intro{
+        color: grey;
+        text-align: center;
+    }
+    img{
+        width: 30%;
+        max-height: 10rem;
+        float: right;
+        padding-left: 3rem;
+    }
+    h2{
+        text-decoration: none;
+        font-size: 32;
+        font-weight: 600;
+        margin: 2rem;
+        border-bottom: solid;
+        border-right: solid;
+        padding: 1.5rem;
+    }
+    .post-header{
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0 0 15px #9393f5;
+    }
+    .exerpt{
+        margin: 1rem;
+        color: lightgray;
+    }
+}

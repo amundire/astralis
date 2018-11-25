@@ -5,13 +5,14 @@
 layout: site
 ---
 
-<ul class="listing posts">
+<div class="listing-posts">
 	{% for post in site.posts %}
-	<li>
+	<div class="post">
 		<a href="{{ site.baseurl }}{{ post.url }}">
-			<span class="title">{{ post.title }}</span>
-			<span class="date">{{ post.date | date_to_string }}</span>
-		</a>
-	</li>
+		<img src="{{ post.img }}">
+			<p class="title">{{ post.title }}</p>
+			<!-- <p class="date">{{ post.categories }}</p> -->
+	</a>
+	</div>
 	{% endfor %}
-</ul>
+</div>

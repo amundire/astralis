@@ -7,8 +7,11 @@ html {
 	box-sizing: border-box;
 }
 
-*, *:before, *:after {
-	box-sizing: inherit;
+* {
+	&:after,
+	&:before {
+		box-sizing: inherit;
+	}
 }
 
 #__bs_notify__ {
