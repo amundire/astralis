@@ -5,6 +5,17 @@ header {
     flex-wrap: wrap;
     background-color: var(--astr-background-color);
     border-bottom: 1px solid var(--astr-border-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .site-title{
+    padding: 1rem;
+        transition: all 0.5ms ease-in;
+        &:hover > a{
+            text-shadow: 0 0 6px white;
+        }
   }
   
   input {
@@ -44,6 +55,7 @@ header {
       border-radius: 1px !important;
       background: linear-gradient(to right, rgba(32, 12, 59, 0.9), #58398b, rgba(32, 12, 59, 0.9));
       &:hover {
+        border: 1px solid;
         -webkit-box-shadow: 0px 0px 25px -1px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 0px 25px -1px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 25px -1px rgba(0, 0, 0, 0.75);

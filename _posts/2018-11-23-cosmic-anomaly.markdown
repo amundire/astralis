@@ -3,7 +3,7 @@ layout: post
 title:  "Cosmic Anomaly - Card Review"
 date:   2018-11-23 11:27:55 +0200
 categories: jekyll update
-img: astralis/../images/cosmic_anomaly_full.jpg
+img: astralis/../images/Cosmic_Anomaly_full.jpg
 ---
 <article>
 <h2 class="post-header">Cosmic Anomaly Card Review</h2>
