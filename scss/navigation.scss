@@ -5,10 +5,6 @@ header {
     flex-wrap: wrap;
     background-color: var(--astr-background-color);
     border-bottom: 1px solid var(--astr-border-color);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
   }
   .site-title{
     padding: 1rem;
@@ -48,8 +44,8 @@ header {
   .navigation {
     a {
       display: block;
-      margin: 3px;
-      padding: 6px 12px !important;
+      margin: .2rem;
+      padding: 0.4rem 0.6rem !important;
       border: 1px solid #9393f5;
       color: var(--default) !important;
       border-radius: 1px !important;
@@ -72,6 +68,10 @@ header {
     display: block;
     flex: 1 0 100%;
   }
+
+  #nav-main-toggle:checked + .site{
+      margin-top: 20rem;
+  }
   
   @media screen and (max-width: 800px) {
     .navigation {
@@ -80,12 +80,6 @@ header {
         display: block;
       }
       ul {
-        ul {
-          display: block;
-          width: auto;
-          position: static;
-          padding: 0.5rem 0rem 0.5rem 1.5rem;
-        }
         a {
           color: #000;
         }
@@ -102,5 +96,10 @@ header {
     }
     .navigation li:hover > ul {
       display: block;
+    }
+    #nav-main-toggle:checked{
+      .navigation{
+        flex: 0;
+      }
     }
   }
