@@ -1,0 +1,63 @@
+.site-login{
+    background: var(--astr-background-color);
+    flex-direction: row;
+    justify-content: space-around;
+    section{
+        display: flex;  
+        padding: 3rem;
+        margin: 1rem;
+        input{
+            display: block;
+            width: 100%;
+            padding: 0.8rem 0.4rem;
+            margin: 1rem 0;
+            background: var(--astr-background-welcome);
+            color: #fff;
+            &:focus{
+                border: 4px solid #fff;
+                box-shadow: 0 0 13px #fff;
+            }
+        }
+        button{
+            margin: 0.5rem;
+            padding: 1rem;
+            color: black;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background-color: rgba(255, 255, 255, 0.1);
+            color: var(--default-text-color);
+            cursor: pointer;
+            transition: .3s ease-in-out;
+            width: 100%;
+            &:hover{
+                background-color: rgba(175, 175, 200, 0.1);;
+                -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+                box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+            }
+        }
+    }
+    .loginform-container{
+        border-right: 2px solid var(--astr-background-welcome);
+        height: 61vh;
+    }
+    .registerform-container{
+        border-left: 2px solid var(--astr-background-welcome);
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .site-login{
+        flex-direction: column;
+        
+    .loginform-container{
+        border-right: none;
+        height: auto;
+        border-bottom: 2px solid var(--astr-background-welcome);
+    }
+    .registerform-container{
+        border-left: none;
+        border-top: 2px solid var(--astr-background-welcome);
+    }
+    }
+}

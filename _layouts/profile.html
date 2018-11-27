@@ -3,64 +3,44 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>Jekyll Theme - Astralis</title>
-		<link rel="shortcut icon" type="image/png" href="/astralis/images/9167.png"/>
-		<link rel="stylesheet" href="/astralis/css/styles.css" type="text/css" />
+		<title>{{site.title}}</title>
+		<link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/images/9167.png"/>
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" type="text/css" />
 	</head>
-	<body class="home">
+	<body class="{% if page.type %}{{page.type}} {% endif %}{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
 		<div class="site">
 
 			<input type="checkbox" id="nav-main-toggle" name="nav-main-toggle">
 			<header class="site-header">
 				<div class="site-branding">
 					<p class="site-title">
-						<a href="/astralis/">Jekyll Theme - Astralis</a>
+						<a href="{{ site.baseurl }}/">{{ site.title }}</a>
 					</p>
 				</div>
 
 				<label id="nav-toggle" for="nav-main-toggle" class="fas nav-toggle right"><span>Menu</span></label>
 				<nav class="navigation main">
-						<ul>
-								<li><a class="fas fa-newspaper" href="/astralis/">Blog</a></li>
-								<li><a class="fas fa-user-secret" href="/astralis/about/">About</a></li>
-								<li><a class="fas fa-envelope" href="/astralis/profile/">Profile</a></li>
-								<li><a class="fas fa-key" href="/astralis/login/">Login</a></li>
-								<li></li>
-							</ul>
+					<ul>
+						<li><a class="fas fa-newspaper" href="{{ site.baseurl }}/">Blog</a></li>
+						<li><a class="fas fa-user-secret" href="{{ site.baseurl }}/about/">About</a></li>
+						<li><a class="fas fa-envelope" href="{{ site.baseurl }}/profile/">Profile</a></li>
+						<li><a class="fas fa-key" href="{{ site.baseurl }}/login/">Login</a></li>
+						<li></li>
+					</ul>
 				</nav>
 			</header>
-			<main class="site-content">
-				<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
-
+			<main class="site-profile">
+				{{content}}
 			</main>
 			<footer class="site-footer">
 				<div class="footer-content">
 						<div class="quick-links">
 								<h2>Quick Links</h2>
-								<a href="/astralis/">Home</a>
-								<a href="/astralis/about/">About us</a>
+								<a href="{{ site.baseurl }}/">Home</a>
+								<a href="{{ site.baseurl }}/about/">About us</a>
 								<a href="#">FAQs</a>
 								<a href="#">Services</a>
-								<a href="/astralis/profile/">Profile</a>
+								<a href="{{ site.baseurl }}/profile/">Profile</a>
 							</div>
 							<div class="services">
 								<h2>Services</h2>
