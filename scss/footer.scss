@@ -1,0 +1,45 @@
+.site-footer{
+    margin: 0 5rem;
+    background: var(--astr-background-topics);
+    .footer-content{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        .quick-links{
+            h2{
+                padding: 0;
+            }
+            display: flex;
+            flex-direction: column;
+        }
+        .services{
+            h2{
+                padding: 0;
+            }
+            display: flex;
+            flex-direction: column;
+        }
+        .address{
+            h2{
+                padding: 0;
+            }
+        }
+        .follow-us{
+            h2{
+                padding: 0;
+            }
+        }
+        div{
+            margin: 2rem auto;
+            a{
+                color: cyan;
+            }
+        }
+    }
+    .footer-footer{
+        p{
+            text-align: center;
+            margin: 0 2rem;
+        }
+    }
+}

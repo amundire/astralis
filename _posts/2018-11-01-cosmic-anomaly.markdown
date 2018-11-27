@@ -1,36 +1,11 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Jekyll Theme - Astralis</title>
-		<link rel="shortcut icon" type="image/png" href="/astralis/images/9167.png"/>
-		<link rel="stylesheet" href="/astralis/css/styles.css" type="text/css" />
-	</head>
-	<body class="cosmic-anomaly-card-review">
-		<div class="site">
-
-			<input type="checkbox" id="nav-main-toggle" name="nav-main-toggle">
-			<header class="site-header">
-				<div class="site-branding">
-					<p class="site-title">
-						<a href="/astralis/">Jekyll Theme - Astralis</a>
-					</p>
-				</div>
-
-				<label id="nav-toggle" for="nav-main-toggle" class="fas nav-toggle right"><span>Menu</span></label>
-				<nav class="navigation main">
-					<ul>
-						<li><a class="fas fa-newspaper" href="/astralis/">Blog</a></li>
-						<li><a class="fas fa-user-secret" href="/astralis/about/">About</a></li>
-						<li><a class="fas fa-envelope" href="/astralis/contacts/">Contacts</a></li>
-						<li><a class="fas fa-key" href="/astralis/login/">Login</a></li>
-						<li></li>
-					</ul>
-				</nav>
-			</header>
-			<main class="site-post">
-				<article>
+---
+layout: post
+title:  "Cosmic Anomaly - Card Review"
+date:   2018-11-23 11:27:55 +0200
+categories: jekyll update
+img: astralis/../images/Cosmic_Anomaly_full.jpg
+---
+<article>
 <h2 class="post-header">Cosmic Anomaly Card Review</h2>
 
 <p>Mage is getting some solid Spell Damage minions and synergies this expansion, and I like it. This card seems pretty powerful, but only in the right deck. You could say that technically since Evolved Kobold has seen play, this also might. But that was when Emperor Thaurissan was in play, and Kobold would be just as strong as this one in Freeze Mage, since it’s the Spell Damage part you cared about anyway.</p>
@@ -45,42 +20,3 @@
 
 <p>Card rating: 8/10</p>
 </article>
-
-			</main>
-			
-			<footer class="site-footer">
-					<div class="footer-content">
-							<div class="quick-links">
-									<h2>Quick Links</h2>
-									<a href="#">Home</a>
-									<a href="#">About us</a>
-									<a href="#">FAQs</a>
-									<a href="#">Services</a>
-									<a href="#">Contact</a>
-								</div>
-								<div class="services">
-									<h2>Services</h2>
-									<a href="#">Contact us</a>
-									<a href="#">Write us</a>
-									<a href="#">Call us</a>
-								</div>
-								<div class="address">
-									<h2>Address</h2>
-									<p>Sofia, Bulgaria</p>
-									<p>info@intime.com</p>
-									<p>(01) 800 854 633</p>
-								</div>
-								<div class="follow-us">
-									<h2>Follow us</h2>
-									<i class="fab fa-github"></i>
-									<i class="fab fa-twitter"></i>
-									<i class="fab fa-facebook"></i>
-							</div>
-					</div>
-					<div class="footer-footer">
-						<p>All pictures present belong to their respective owners. I do not have ownership over them.</p>
-					</div>
-				</footer>
-		</div>
-	</body>
-</html>

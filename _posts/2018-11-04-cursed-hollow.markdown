@@ -1,36 +1,11 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Jekyll Theme - Astralis</title>
-		<link rel="shortcut icon" type="image/png" href="/astralis/images/9167.png"/>
-		<link rel="stylesheet" href="/astralis/css/styles.css" type="text/css" />
-	</head>
-	<body class="cursed-hollow-strategic-guide">
-		<div class="site">
-
-			<input type="checkbox" id="nav-main-toggle" name="nav-main-toggle">
-			<header class="site-header">
-				<div class="site-branding">
-					<p class="site-title">
-						<a href="/astralis/">Jekyll Theme - Astralis</a>
-					</p>
-				</div>
-
-				<label id="nav-toggle" for="nav-main-toggle" class="fas nav-toggle right"><span>Menu</span></label>
-				<nav class="navigation main">
-					<ul>
-						<li><a class="fas fa-newspaper" href="/astralis/">Blog</a></li>
-						<li><a class="fas fa-user-secret" href="/astralis/about/">About</a></li>
-						<li><a class="fas fa-envelope" href="/astralis/contacts/">Contacts</a></li>
-						<li><a class="fas fa-key" href="/astralis/login/">Login</a></li>
-						<li></li>
-					</ul>
-				</nav>
-			</header>
-			<main class="site-post">
-				<article>
+---
+layout: post
+title:  "Cursed Hollow - Strategic Guide"
+date:   2018-11-23 11:27:55 +0200
+categories: jekyll update
+img: astralis/../images/3.jpg
+---
+<article>
 <h1 class="post-header">Cursed Hollow</h1>
 <p class="post-intro">If you're familiar with any of the other big MOBAs, Cursed Hollow is about as familiar ground as it gets. The three-lane map pays tribute to tradition, but there's a different kind of tribute at play as well. Throughout the match, the map's Raven Lord overseer will announce the spawning of a special Tribute, one that can turn the tide of battle.</p>
 
@@ -64,42 +39,3 @@
 
 <p>- Never assume that the other players understand the importance of gathering Tributes. A few quick, friendly lines tapped out in chat while you're preparing for battle can make all the difference. People will take guidance if you give it in good spirit!</p>
 </article>
-
-			</main>
-			
-			<footer class="site-footer">
-					<div class="footer-content">
-							<div class="quick-links">
-									<h2>Quick Links</h2>
-									<a href="#">Home</a>
-									<a href="#">About us</a>
-									<a href="#">FAQs</a>
-									<a href="#">Services</a>
-									<a href="#">Contact</a>
-								</div>
-								<div class="services">
-									<h2>Services</h2>
-									<a href="#">Contact us</a>
-									<a href="#">Write us</a>
-									<a href="#">Call us</a>
-								</div>
-								<div class="address">
-									<h2>Address</h2>
-									<p>Sofia, Bulgaria</p>
-									<p>info@intime.com</p>
-									<p>(01) 800 854 633</p>
-								</div>
-								<div class="follow-us">
-									<h2>Follow us</h2>
-									<i class="fab fa-github"></i>
-									<i class="fab fa-twitter"></i>
-									<i class="fab fa-facebook"></i>
-							</div>
-					</div>
-					<div class="footer-footer">
-						<p>All pictures present belong to their respective owners. I do not have ownership over them.</p>
-					</div>
-				</footer>
-		</div>
-	</body>
-</html>
