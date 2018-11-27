@@ -28,7 +28,6 @@ header{
 }
 
 main{
-    background-color: var(--astr-background-color) !important;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -39,6 +38,18 @@ main{
     }
 }
 
+.landing-page-header{
+    background-color: var(--astr-background-color) !important;
+    width: 100%;
+    padding: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.posts{
+    background-color: var(--astr-background-color) !important;
+}
 
 .listing-posts {
     padding: 1.5rem;
@@ -87,6 +98,12 @@ main{
     }
 }
 
+.topic-section{
+    .topic-section-header{
+        text-align: center;
+        background: var(--astr-background-topics);
+    }
+    
 .topics {
     text-align: center;
     display: flex;
@@ -94,16 +111,16 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 33%;
         flex: 1 1 16rem;
         border-left: solid 2px var(--astr-background-welcome);
         border-right: solid 2px var(--astr-background-welcome);
         border-bottom: solid 4px var(--astr-background-welcome);
         transition: all 0.5s ease;
         justify-content: space-between;
+        background: var(--astr-background-color);
         img{
             height: 100%;
-            width: 70%;
+            width: auto;
             padding-left: 0;
             padding-bottom: 2rem;
         }
@@ -121,6 +138,7 @@ main{
             background: linear-gradient(to right,rgba(32,12,59,.9),#58398b,rgba(32,12,59,.9));
         }
     }
+}
 }
 
 .subscription{
@@ -146,7 +164,6 @@ main{
             background: var(--astr-background-welcome);
             color: white;
             border: 1px solid grey;
-            width: 35%;
             &:focus{
                 border: 3px solid white;
             }
@@ -168,6 +185,12 @@ main{
     .listing-posts{
         grid-template-columns: 1fr;
     }
+    .welcome{
+        p{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
 }
 
 
@@ -181,5 +204,15 @@ main{
     .listing-posts{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .topics{
+        article{
+            width: auto;
+            max-width: inherit;
+        }
+        flex-direction: column;
     }
 }

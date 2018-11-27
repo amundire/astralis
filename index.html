@@ -5,12 +5,12 @@
 layout: site
 ---
 <h1 class="landing-page-header">Most recent posts</h1>
-<section>
+<section class="posts">
 <div class="listing-posts">
 	{% for post in site.posts %}
 	<div class="post">
 		<a href="{{ site.baseurl }}{{ post.url }}">
-		<img src="{{ post.img }}">
+		<img src="{{ post.img }}" alt="post image">
 			<p class="title">{{ post.title }}</p>
 			<!-- <p class="date">{{ post.categories }}</p> -->
 	</a>
@@ -25,25 +25,28 @@ layout: site
 	The reason I wanted to make something like this is because it looks shiny and eyecatching and I usually used super basic and simple bootstrap themes with 1-2 colors in the Angular6/Reactjs projects.
 	Also wanted to impress the pretty lecturer girl. She is best girl.</p>
 </section>
-<section class="topics">
+<section class="topic-section">
+	<h1 class="topic-section-header">Topics</h1>
+	<div class="topics">
 	<article>
 		<h1 class="topic-header">Guides</h1>
-		<img class="topic-image" src="images/mqdefault.jpg">
+		<img class="topic-image" src="images/mqdefault.jpg" alt="Thumbnail pic">
 		<p class="topic-description">This site offers high quality guides that are written by experienced and knowledgable players who compete at the highest levels of their game.</p>
 		<a href="#">Watch</a>
 	</article>
 	<article>
 		<h1 class="topic-header">Reviews</h1>
-		<img class="topic-image" src="images/hqdefault.jpg">
+		<img class="topic-image" src="images/hqdefault.jpg" alt="Thumbnail pic">
 		<p class="topic-description">As new content and gameplay elements are introduced, the meta is impacted in certain ways. Experts from around the world give their opinion and predictions on how good or bad new features are going to be before and after their release.</p>
 		<a href="#">Read more</a>
 	</article>
 	<article>
 		<h1 class="topic-header">Interviews</h1>
-		<img class="topic-image" src="images/i1496710062677385.png">
+		<img class="topic-image" src="images/i1496710062677385.png" alt="Thumbnail pic">
 		<p class="topic-description">During the tournaments with the highest prize money and prestige, we give you the opportunity to listen to insightful comments from players.</p>
 		<a href="#">Read more</a>
 	</article>
+</div>
 </section>
 <section class="subscription">
 	<article>
