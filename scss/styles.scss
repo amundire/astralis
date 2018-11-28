@@ -310,18 +310,20 @@ main{
     .site-footer{
         margin: 0;
     }
-
-
     .feed-wrapper{
         flex-direction: column;
-        .streams, .tweets{
-            width: auto !important;
-            max-width: inherit;
-            margin: 0;
-            padding: 1rem 0;
-        }
     }
-    
+    .streams, .tweets{
+        width: auto !important;
+        max-width: inherit;
+        margin: 0;
+        padding: 1rem 0;
+        max-height: 100% !important;
+    }
+    .scroller{
+        height: auto !important;   
+        overflow: auto !important;
+    }
 }
 
 @media screen and (max-width: 400px){
