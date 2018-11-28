@@ -228,10 +228,7 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex: 1 1 16rem;
-        border-left: solid 2px var(--astr-background-welcome);
-        border-right: solid 2px var(--astr-background-welcome);
-        border-bottom: solid 4px var(--astr-background-welcome);
+        border: solid 2px var(--astr-background-welcome);
         transition: all 0.5s ease;
         justify-content: space-between;
         background: var(--astr-background-color);
@@ -246,7 +243,7 @@ main{
             padding-bottom: 2rem;
         }
         &:hover{
-            border: solid 4px var(--astr-border-color);
+            border: solid 2px cyan !important;
         }
         a{
             display: block;
