@@ -4,6 +4,7 @@ title:  "Cosmic Anomaly - Card Review"
 date:   2018-11-23 11:27:55 +0200
 categories: jekyll update
 img: astralis/../images/Cosmic_Anomaly_full.jpg
+desc: 'Mage is getting some solid Spell Damage minions and synergies this expansion, and I like it. This card seems pretty powerful, but only in the right deck. You could say that technically since Evolved Kobold has seen play, this also might. But that was when Emperor Thaurissan was in play, and Kobold would be just as strong as this one in Freeze Mage, since it’s the Spell Damage part you cared about anyway.'
 ---
 <article>
 <h2 class="post-header">Cosmic Anomaly Card Review</h2>

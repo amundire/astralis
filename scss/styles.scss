@@ -44,53 +44,92 @@ main{
 }
 
 .landing-page-header{
-    background-color: var(--astr-background-color) !important;
     width: 100%;
     padding: 0;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     text-align: center;
+    background: var(--astr-background-topics) !important;
 }
 
 .posts{
     background-color: var(--astr-background-color) !important;
+    width: 100%;
 }
 
 .listing-posts {
-    padding: 1.5rem;
-    border-radius: 3px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 2vw;
-
-    & .post {
-        transition: all .5s ease-in-out;
-        img {
-            width: 100%;
-            border-radius: 30px;
-            &:hover {
-                cursor: pointer;
+    .post{
+        transition: .3s ease-in-out;
+        &:hover{
+            -webkit-box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75);
+        }
+        .post-top{
+            padding: 0.5rem;
+            .post-image{
+                position: absolute;
+                a{
+                    position: relative;
+                    display: block;
+                    text-align: center;
+                    img{
+                        vertical-align: middle;
+                        width: 9rem;
+                        max-width: 12rem;
+                        z-index: 10;
+                        border: 1px solid var(--astr-border-color);
+                        height: 7rem;
+                    }
+                    .post-overlay{
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        top: 0;
+                        bottom: 0;
+                        opacity: 0;
+                        background-color: rgba(0, 0, 0, 0.7);
+                        color: orange;
+                        font-weight: 800;
+                        transition: all 0.4s ease;
+                        padding: 25% 0;
+                        &:hover{
+                            opacity: 1;
+                            z-index: 20;
+                        }
+                    }
+                    &:hover > .post-overlay{
+                        opacity: 1;
+                    }
+                }
+            }
+            .post-title{
+                .post-image-link{
+                    color: orange !important;
+                    font-weight: 800;
+                }
+                padding-left: 11rem;
+            }
+            .post-description{
+                padding: .5rem;
+                padding-left: 10rem;
             }
         }
+        background-color: var(--astr-background-topics) !important;
+        margin: 1rem;
     }
-    a:hover {
-        p.title{
-            text-shadow: 0 0 15px #9393f5;
-        }
-        img{
-            border: solid;
-        }
-        -webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.75);
-        box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.75);
-    }
-    div:first-child{
-        a:after{
-            display: block;
-            content: 'If you are familiar with any of the other big MOBAs, Cursed Hollow is about as familiar ground as it gets.';
+    .post-bottom{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        width: 100%;
+        background-color: var(--astr-background-welcome);
+        .post-button{
+            cursor: pointer;
+            padding: 0.5rem;
+            background-color: var(--astr-border-color);
         }
     }
-    
 }
 
 
@@ -124,6 +163,58 @@ main{
     }
 }
 
+.feed{
+    width: 100%;
+    .feed-header{
+        background: var(--astr-background-topics);
+        text-align: center;
+    }
+    .feed-wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background: var(--astr-background-color);
+        .streams, .tweets{
+            width: 50%;
+            ul{
+                padding-left: 0;
+            }
+            li{
+            list-style-type: none;
+            background: var(--astr-background-welcome);
+            padding: 0.5rem;
+            transition: all 0.3s ease-in;
+            .link-text{
+                color: cyan;
+            }
+                div{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                &:hover{
+                    background-color: rgba(255, 255, 255, 0.1);
+                }
+            }
+            h3{
+                padding: 1rem;
+                text-shadow: 0 0 15px #9393f5;
+                background: var(--astr-background-topics);
+                border-left: 2px solid cyan;
+            }
+        }
+        .tweets{
+            max-height: 60vh;
+            .scroller{
+                overflow: scroll;
+                overflow-x: hidden;
+                height: 86%;
+            }
+        }
+    }
+}
+
+
+
 .topic-section{
     .topic-section-header{
         text-align: center;
@@ -144,6 +235,10 @@ main{
         transition: all 0.5s ease;
         justify-content: space-between;
         background: var(--astr-background-color);
+        padding: 0 !important;
+        p{
+            padding: 1rem;
+        }
         img{
             height: 100%;
             width: auto;
@@ -163,6 +258,7 @@ main{
             background: -webkit-gradient(linear,left top,right top,from(rgba(32,12,59,.9)),color-stop(#58398b),to(rgba(32,12,59,.9)));
             background: linear-gradient(to right,rgba(32,12,59,.9),#58398b,rgba(32,12,59,.9));
             transition: all .5s ease;
+            margin: 1rem;
             &:hover {
                 border: 1px solid;
                 -webkit-box-shadow: 0px 0px 25px -1px rgba(0, 0, 0, 0.75);
@@ -211,48 +307,46 @@ main{
         margin-right: 0;
         margin-top: 5rem;
     }
-    .listing-posts{
-        grid-template-columns: 1fr 1fr;
-    }
     .site-footer{
         margin: 0;
     }
+
+
+    .feed-wrapper{
+        flex-direction: column;
+        .streams, .tweets{
+            width: auto !important;
+            max-width: inherit;
+            margin: 0;
+            padding: 1rem 0;
+        }
+    }
+    
 }
 
 @media screen and (max-width: 400px){
-    .listing-posts{
-        grid-template-columns: 1fr;
-    }
-    .welcome{
-        p{
-            padding-left: 0;
-            padding-right: 0;
+        .welcome{
+            p{
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        .site-footer{
+            text-align: center;
+            .footer-content{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        .subscription article a{
+            display: inline-block;
+            margin: 1rem;
         }
     }
-    .site-footer{
-        text-align: center;
-    .footer-content{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .subscription article a{
-        display: inline-block;
-        margin: 1rem;
-    }
-}
-}
-
-
-@media screen and (min-width: 800px){
-    .listing-posts{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .listing-posts{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+    .post-top{
+        min-height: 7rem;
+        .post-description{
+            display: none;
+        }
     }
 }
 

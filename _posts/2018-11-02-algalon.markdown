@@ -4,6 +4,7 @@ title:  "Algalon the Observer - Guide"
 date:   2018-11-23 11:27:55 +0200
 categories: jekyll
 img: astralis/../images/latest.jpg
+desc: 'Algalon transforms the arena into space and immediately begins attacking the player with the highest threat. Algalon hits very hard and fast; he casts Quantum Strike on the tank with high frequency, so healers must ensure that the tank remains at full health at all times. All DPS merely attack the boss the best they can. Algalon can be positioned anywhere, as he has no frontal cleave or cone attacks.'
 ---
 <article>
 <h1 class="post-header">Algalon the Observer - Tactics</h1>
