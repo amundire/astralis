@@ -22,10 +22,16 @@ layout: site
 				<div class="post-description">{{ post.desc }}</div>
 			</div>
 			<div class="post-bottom">
-				<div class="post-metadata">
-					<span class="link-text">{{ post.author }}</span>
+				<input type="checkbox" class="share-toggle-{{ post.index }}" id="share-toggle-{{ post.index }}" name="share-toggle-{{ post.index }}">
+				<div id="share-buttons-{{ post.index }}">
+					<ul class="share-links">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-google"></i>
+						<i class="fab fa-reddit-alien"></i>
+					</ul>
 				</div>
-				<div class="post-button">Share</div>
+				<label for="share-toggle-{{ post.index }}"><i class="fas fa-share"></i></label>
 			</div>
 		</div>
 		{% endfor %}

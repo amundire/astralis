@@ -5,6 +5,7 @@ date:   2018-11-23 11:27:55 +0200
 categories: jekyll
 img: astralis/../images/3.jpg
 desc: 'If you are familiar with any of the other big MOBAs, Cursed Hollow is about as familiar ground as it gets. The three-lane map pays tribute to tradition, but there is a different kind of tribute at play as well. Throughout the match, the map is Raven Lord overseer will announce the spawning of a special Tribute, one that can turn the tide of battle.'
+index: 0
 ---
 <article>
 <h1 class="post-header">Cursed Hollow</h1>

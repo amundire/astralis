@@ -5,6 +5,13 @@ header {
     flex-wrap: wrap;
     background-color: var(--astr-background-color);
     border-bottom: 1px solid var(--astr-border-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    i{
+      margin: 1rem;
+    }
   }
   .site-title{
     padding: 1rem;
@@ -14,7 +21,7 @@ header {
         }
   }
   
-  input {
+  header input {
     &#nav-main-toggle {
       display: none;
     }
@@ -69,11 +76,35 @@ header {
   #nav-main-toggle:checked + header .navigation {
     display: block;
     flex: 1 0 100%;
+    animation: slideIn 0.3s ease 1 both;
   }
 
-  #nav-main-toggle:checked + .site{
-      margin-top: 20rem;
+  #nav-main-toggle:checked > main{
+      animation: slideOut 0.5s ease 1 both;
   }
+
+  #nav-main-toggle:checked + header .fa-bars:before{
+    content: '\f00d';
+  }
+
+  
+@keyframes slideIn {
+  from {
+    transform: translateY(-2rem);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateY(-2rem);
+  }
+  to {
+    transform: translateY(18rem);
+  }
+}
   
   @media screen and (max-width: 800px) {
     .navigation {
@@ -94,8 +125,8 @@ header {
   }
   
   @media screen and (min-width: 801px) {
-    label {
-      display: none;
+    header label {
+      display: none !important;
     }
     .navigation li:hover > ul {
       display: block;
