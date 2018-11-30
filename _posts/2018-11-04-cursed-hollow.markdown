@@ -16,7 +16,7 @@ index: 0
 <p>The first team to collect a total of three of these trinkets will have a Curse placed against their opponents. This reduces enemy minion health to one, prevents defensive forts from firing, and those forts will also only have 50% of their structural health.</p>
 
 <p>Fortunately, the team that fails to reach three Tributes first will still hold onto those they've managed to collect, making it more likely they'll trigger this special effect the next time around. The other team will have to hunt down another three first if they're to beat them once again.</p>
-
+<img src="{{ site.baseurl }}/images/3.jpg">
 <h2>How to win more games on Cursed Hollow</h2>
 
 <p>If you've played much Heroes of the Storm at all, you'll know that the way to win matches lies in working towards the special objectives of each map - and this has never been truer than on Cursed Hollow. If you can land the Curse on your opposing team a couple of times in a match, you're well on your way to getting over the finishing line first.</p>
