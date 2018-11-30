@@ -28,13 +28,20 @@
             h2{
                 padding: 0;
             }
+            i{
+                font-size: 2rem;
+                &:hover{
+                    color: cyan;
+                    cursor: pointer;
+                }
+            }
         }
         div{
             margin: 2rem auto;
             a{
                 color: cyan;
                 &:hover{
-                    border-bottom: 3px cyan dashed;
+                    text-shadow: 0 0 5px #6cbef5;
                 }
             }
         }
