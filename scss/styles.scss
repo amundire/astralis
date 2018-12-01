@@ -311,6 +311,9 @@ main{
 .topics {
     text-align: center;
     display: flex;
+    h3{
+        margin-top: 1rem;
+    }
     article{
         display: flex;
         flex-direction: column;
@@ -320,6 +323,7 @@ main{
         justify-content: space-between;
         background: var(--astr-background-color);
         padding: 0 !important;
+        width: 33%;
         p{
             padding: 1rem;
             max-width: 70%;
@@ -471,10 +475,68 @@ main{
 @media screen and (max-width: 1024px){
     .topics{
         article{
-            width: auto;
+            width: auto !important;
             max-width: inherit;
         }
         flex-direction: column;
     }
     
+}
+
+body{
+    &.home{
+        .blog-button{
+            a{
+                border: 1px solid;
+                -webkit-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                -moz-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                background: var(--astr-button-hover);
+            }
+        }
+    }
+    &.about{
+        .about-button{
+            a{
+                border: 1px solid;
+                -webkit-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                -moz-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                background: var(--astr-button-hover);
+            }
+        }
+    }
+    &.gallery{
+        .gallery-button{
+            a{
+                border: 1px solid;
+                -webkit-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                -moz-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                background: var(--astr-button-hover);
+            }
+        }
+    }
+    &.login{
+        .login-button{
+            a{
+                border: 1px solid;
+                -webkit-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                -moz-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                background: var(--astr-button-hover);
+            }
+        }
+    }
+    &.premium{
+        .premium-link{
+            a{
+                background: linear-gradient(to right,rgba(145, 78, 24, 0.9), rgba(224, 163, 32, 0.9), rgba(145, 78, 24, 0.9)) !important ;
+                border: 1px solid;
+                -webkit-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                -moz-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+                box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
+            }
+        }
+    }
 }
