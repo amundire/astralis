@@ -32,3 +32,14 @@ article{
         margin: 0 25%;
     }
 }
+
+@media screen and (max-width: 1000px){
+    .site-post{
+        article{
+            img{
+                margin: 0;
+                max-width: 20rem;
+            }
+        }
+    }
+}

@@ -285,6 +285,9 @@ main{
                 background: var(--astr-background-topics);
                 border-left: 2px solid cyan;
             }
+            .fa-eye{
+                line-height: 1.6rem;
+            }
         }
         .tweets{
             max-height: 60vh;
@@ -319,6 +322,7 @@ main{
         padding: 0 !important;
         p{
             padding: 1rem;
+            max-width: 70%;
         }
         img{
             width: 30%;
