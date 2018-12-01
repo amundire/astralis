@@ -26,7 +26,6 @@ index: 0
 <p>Alternatively, you can play things a little more defensively, make sure that the enemy threat is held back at all times, and above all else not die! Once a Tribute spawns, the team then collectively moves as one towards the location of the item, brawling against any roaming enemy packs in one dedicated fighting force.</p>
 
 
-
 <h2>Using Mercenary Camps on Cursed Hollow</h2>
 
 <p>Assuming you're at an appropriate level, and capturing them is easy enough, consider taking down a Mercenary Camp immediately before picking up your final Tribute. If those wandering packs of mighty minions can get to Cursed fortifications, they'll make very light work of ripping through the enemy team's defences.</p>
@@ -35,7 +34,7 @@ index: 0
 
 <p>- If your team becomes Cursed, keep communication up at all times and check your minimap constantly for signs of a large push. Assemble your team and go and do whatever it takes to hold back the invading force, and defend your defences!</p>
 
-<p>- If you've been fortunate/skilful enough to ensure that your team has Cursed the enemy, join up as one and charge towards the other side of the map. Don't worry about picking off any enemy Heroes along the way, as your main priority should be to obliterate the forts while they're severely weakened.</p>
+<p>- If you've been fortunate/skillful enough to ensure that your team has Cursed the enemy, join up as one and charge towards the other side of the map. Don't worry about picking off any enemy Heroes along the way, as your main priority should be to obliterate the forts while they're severely weakened.</p>
 
 <p>- While Blizzard has done a pretty good job of providing plenty of catch-up mechanisms in Heroes of the Storm, there's no denying the fact that the team that lands the first Curse typically maintains the advantage throughout the remainder of the match.</p>
 

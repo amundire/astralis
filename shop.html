@@ -1,0 +1,26 @@
+---
+layout: site
+title: shop
+permalink: /shop/
+---
+<section class="shop-section">
+    <h1>Shop</h1>
+    <div class="shop-wrapper">
+    {% for product in site.categories.tshirts %}
+<div class="product-wrapper">
+    <div class="product-image">
+        <img src="{{ product.img }}" alt="post image" href="{{ product.url }}">
+    </div>
+    <a class="product-name" href="{{ site.baseurl }}{{ product.url }}">
+        <h3>{{ product.title }}</h3>
+    </a>
+    <div class="product-price">
+        <h3>{{ product.price }}</h3>
+    </div>
+    <div class="product-button">
+        Add to Cart
+    </div>
+</div>
+    {% endfor %}
+</div>
+</section>

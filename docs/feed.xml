@@ -1,37 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/astralis/feed.xml" rel="self" type="application/atom+xml" /><link href="/astralis/" rel="alternate" type="text/html" /><updated>2018-12-01T17:00:19+02:00</updated><id>/astralis/feed.xml</id><title type="html">Astralis</title><subtitle>A static blog site project that is used to evaluate my html/css knowledge at the end of a university course.</subtitle><entry><title type="html">Cursed Hollow - Strategic Guide</title><link href="/astralis/jekyll/2018/11/23/cursed-hollow.html" rel="alternate" type="text/html" title="Cursed Hollow - Strategic Guide" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>/astralis/jekyll/2018/11/23/cursed-hollow</id><content type="html" xml:base="/astralis/jekyll/2018/11/23/cursed-hollow.html">&lt;article&gt;
-&lt;h1 class=&quot;post-header&quot;&gt;Cursed Hollow&lt;/h1&gt;
-&lt;p class=&quot;post-intro&quot;&gt;If you're familiar with any of the other big MOBAs, Cursed Hollow is about as familiar ground as it gets. The three-lane map pays tribute to tradition, but there's a different kind of tribute at play as well. Throughout the match, the map's Raven Lord overseer will announce the spawning of a special Tribute, one that can turn the tide of battle.&lt;/p&gt;
-
-&lt;h2&gt;How Tributes work on Cursed Hollow&lt;/h2&gt;
-
-&lt;p&gt;The first team to collect a total of three of these trinkets will have a Curse placed against their opponents. This reduces enemy minion health to one, prevents defensive forts from firing, and those forts will also only have 50% of their structural health.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, the team that fails to reach three Tributes first will still hold onto those they've managed to collect, making it more likely they'll trigger this special effect the next time around. The other team will have to hunt down another three first if they're to beat them once again.&lt;/p&gt;
-&lt;img src=&quot;/astralis/images/3.jpg&quot; /&gt;
-&lt;h2&gt;How to win more games on Cursed Hollow&lt;/h2&gt;
-
-&lt;p&gt;If you've played much Heroes of the Storm at all, you'll know that the way to win matches lies in working towards the special objectives of each map - and this has never been truer than on Cursed Hollow. If you can land the Curse on your opposing team a couple of times in a match, you're well on your way to getting over the finishing line first.&lt;/p&gt;
-
-&lt;p&gt;There are a few popular tactics that can increase your win-rate on the map. Some teams like to apply pressure on all three lanes, then make one big united push towards the enemy base, forcing the opposing team to defend while a spare player grabs the Tribute. If you're working well together, this can be a powerful - if slightly risky - play.&lt;/p&gt;
-
-&lt;p&gt;Alternatively, you can play things a little more defensively, make sure that the enemy threat is held back at all times, and above all else not die! Once a Tribute spawns, the team then collectively moves as one towards the location of the item, brawling against any roaming enemy packs in one dedicated fighting force.&lt;/p&gt;
-
-
-
-&lt;h2&gt;Using Mercenary Camps on Cursed Hollow&lt;/h2&gt;
-
-&lt;p&gt;Assuming you're at an appropriate level, and capturing them is easy enough, consider taking down a Mercenary Camp immediately before picking up your final Tribute. If those wandering packs of mighty minions can get to Cursed fortifications, they'll make very light work of ripping through the enemy team's defences.&lt;/p&gt;
-
-&lt;h2&gt;Cursed Hollow tips&lt;/h2&gt;
-
-&lt;p&gt;- If your team becomes Cursed, keep communication up at all times and check your minimap constantly for signs of a large push. Assemble your team and go and do whatever it takes to hold back the invading force, and defend your defences!&lt;/p&gt;
-
-&lt;p&gt;- If you've been fortunate/skilful enough to ensure that your team has Cursed the enemy, join up as one and charge towards the other side of the map. Don't worry about picking off any enemy Heroes along the way, as your main priority should be to obliterate the forts while they're severely weakened.&lt;/p&gt;
-
-&lt;p&gt;- While Blizzard has done a pretty good job of providing plenty of catch-up mechanisms in Heroes of the Storm, there's no denying the fact that the team that lands the first Curse typically maintains the advantage throughout the remainder of the match.&lt;/p&gt;
-
-&lt;p&gt;- Never assume that the other players understand the importance of gathering Tributes. A few quick, friendly lines tapped out in chat while you're preparing for battle can make all the difference. People will take guidance if you give it in good spirit!&lt;/p&gt;
-&lt;/article&gt;</content><author><name></name></author><summary type="html">Cursed Hollow If you're familiar with any of the other big MOBAs, Cursed Hollow is about as familiar ground as it gets. The three-lane map pays tribute to tradition, but there's a different kind of tribute at play as well. Throughout the match, the map's Raven Lord overseer will announce the spawning of a special Tribute, one that can turn the tide of battle.</summary></entry><entry><title type="html">Cosmic Anomaly - Card Review</title><link href="/astralis/jekyll/update/2018/11/23/cosmic-anomaly.html" rel="alternate" type="text/html" title="Cosmic Anomaly - Card Review" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>/astralis/jekyll/update/2018/11/23/cosmic-anomaly</id><content type="html" xml:base="/astralis/jekyll/update/2018/11/23/cosmic-anomaly.html">&lt;article&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/astralis/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/astralis/" rel="alternate" type="text/html" /><updated>2018-12-01T23:07:03+02:00</updated><id>http://localhost:4000/astralis/feed.xml</id><title type="html">Astralis</title><subtitle>A static blog site project that is used to evaluate my html/css knowledge at the end of a university course.</subtitle><entry><title type="html">Cosmic Anomaly - Card Review</title><link href="http://localhost:4000/astralis/jekyll/update/2018/11/23/cosmic-anomaly.html" rel="alternate" type="text/html" title="Cosmic Anomaly - Card Review" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>http://localhost:4000/astralis/jekyll/update/2018/11/23/cosmic-anomaly</id><content type="html" xml:base="http://localhost:4000/astralis/jekyll/update/2018/11/23/cosmic-anomaly.html">&lt;article&gt;
 &lt;h2 class=&quot;post-header&quot;&gt;Cosmic Anomaly Card Review&lt;/h2&gt;
 
 &lt;p&gt;Mage is getting some solid Spell Damage minions and synergies this expansion, and I like it. This card seems pretty powerful, but only in the right deck. You could say that technically since Evolved Kobold has seen play, this also might. But that was when Emperor Thaurissan was in play, and Kobold would be just as strong as this one in Freeze Mage, since it’s the Spell Damage part you cared about anyway.&lt;/p&gt;
@@ -45,7 +12,7 @@
 &lt;p&gt;Overall, the card definitely has lots of potential. It’s +2 Spell Damage on a solid body, with an Elemental tag. It will see play sooner or later. Might not be now, because it feels too slow for the Burn Mage, and the Spell Damage build is not fleshed out enough yet.&lt;/p&gt;
 
 &lt;p&gt;Card rating: 8/10&lt;/p&gt;
-&lt;/article&gt;</content><author><name></name></author><summary type="html">Cosmic Anomaly Card Review</summary></entry><entry><title type="html">Algalon the Observer - Guide</title><link href="/astralis/jekyll/2018/11/23/algalon.html" rel="alternate" type="text/html" title="Algalon the Observer - Guide" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>/astralis/jekyll/2018/11/23/algalon</id><content type="html" xml:base="/astralis/jekyll/2018/11/23/algalon.html">&lt;article&gt;
+&lt;/article&gt;</content><author><name></name></author><summary type="html">Cosmic Anomaly Card Review</summary></entry><entry><title type="html">Algalon the Observer - Guide</title><link href="http://localhost:4000/astralis/jekyll/2018/11/23/algalon.html" rel="alternate" type="text/html" title="Algalon the Observer - Guide" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>http://localhost:4000/astralis/jekyll/2018/11/23/algalon</id><content type="html" xml:base="http://localhost:4000/astralis/jekyll/2018/11/23/algalon.html">&lt;article&gt;
 &lt;h1 class=&quot;post-header&quot;&gt;Algalon the Observer - Tactics&lt;/h1&gt;
 &lt;h2&gt;Phase 1&lt;/h2&gt;
 
@@ -77,7 +44,7 @@
 &lt;p&gt;When this phase begins, consider swapping tanks, as the current tank will very likely have the Phase Punch debuff and the off-tank will have a hard time surviving if he has to tank the adds and Algalon together. If you swap once the Black Holes spawn, you'll be given about 45 seconds to defeat Algalon before a forced tank-swap which should be long enough. Players also need to keep alert about Cosmic Smashes as Algalon will still be using this.&lt;/p&gt;
 
 &lt;p&gt;Once Algalon reaches 1-2%, he is defeated, all adds and Black Holes despawn.&lt;/p&gt;
-&lt;/article&gt;</content><author><name></name></author><summary type="html">Algalon the Observer - Tactics Phase 1</summary></entry><entry><title type="html">Karambit | Doppler</title><link href="/astralis/jekyll/update/2018/11/23/karambit.html" rel="alternate" type="text/html" title="Karambit | Doppler" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>/astralis/jekyll/update/2018/11/23/karambit</id><content type="html" xml:base="/astralis/jekyll/update/2018/11/23/karambit.html">&lt;article&gt;
+&lt;/article&gt;</content><author><name></name></author><summary type="html">Algalon the Observer - Tactics Phase 1</summary></entry><entry><title type="html">Karambit | Doppler</title><link href="http://localhost:4000/astralis/jekyll/update/2018/11/23/karambit.html" rel="alternate" type="text/html" title="Karambit | Doppler" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>http://localhost:4000/astralis/jekyll/update/2018/11/23/karambit</id><content type="html" xml:base="http://localhost:4000/astralis/jekyll/update/2018/11/23/karambit.html">&lt;article&gt;
 &lt;h1 class=&quot;post-header&quot;&gt;The standard Lorem Ipsum passage, used since the 1500s&lt;/h1&gt;
 
 &lt;p&gt;&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;&lt;/p&gt;
@@ -94,4 +61,276 @@
 &lt;p class=&quot;exerpt&quot;&gt;1914 translation by H. Rackham&lt;/p&gt;
 
 &lt;p&gt;&quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&quot;&lt;/p&gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/article&gt;</content><author><name></name></author><summary type="html">The standard Lorem Ipsum passage, used since the 1500s</summary></entry></feed>
+&lt;/p&gt;&lt;/p&gt;&lt;/article&gt;</content><author><name></name></author><summary type="html">The standard Lorem Ipsum passage, used since the 1500s</summary></entry><entry><title type="html">Cursed Hollow - Strategic Guide</title><link href="http://localhost:4000/astralis/jekyll/2018/11/23/cursed-hollow.html" rel="alternate" type="text/html" title="Cursed Hollow - Strategic Guide" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>http://localhost:4000/astralis/jekyll/2018/11/23/cursed-hollow</id><content type="html" xml:base="http://localhost:4000/astralis/jekyll/2018/11/23/cursed-hollow.html">&lt;article&gt;
+&lt;h1 class=&quot;post-header&quot;&gt;Cursed Hollow&lt;/h1&gt;
+&lt;p class=&quot;post-intro&quot;&gt;If you're familiar with any of the other big MOBAs, Cursed Hollow is about as familiar ground as it gets. The three-lane map pays tribute to tradition, but there's a different kind of tribute at play as well. Throughout the match, the map's Raven Lord overseer will announce the spawning of a special Tribute, one that can turn the tide of battle.&lt;/p&gt;
+
+&lt;h2&gt;How Tributes work on Cursed Hollow&lt;/h2&gt;
+
+&lt;p&gt;The first team to collect a total of three of these trinkets will have a Curse placed against their opponents. This reduces enemy minion health to one, prevents defensive forts from firing, and those forts will also only have 50% of their structural health.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, the team that fails to reach three Tributes first will still hold onto those they've managed to collect, making it more likely they'll trigger this special effect the next time around. The other team will have to hunt down another three first if they're to beat them once again.&lt;/p&gt;
+&lt;img src=&quot;/astralis/images/3.jpg&quot; /&gt;
+&lt;h2&gt;How to win more games on Cursed Hollow&lt;/h2&gt;
+
+&lt;p&gt;If you've played much Heroes of the Storm at all, you'll know that the way to win matches lies in working towards the special objectives of each map - and this has never been truer than on Cursed Hollow. If you can land the Curse on your opposing team a couple of times in a match, you're well on your way to getting over the finishing line first.&lt;/p&gt;
+
+&lt;p&gt;There are a few popular tactics that can increase your win-rate on the map. Some teams like to apply pressure on all three lanes, then make one big united push towards the enemy base, forcing the opposing team to defend while a spare player grabs the Tribute. If you're working well together, this can be a powerful - if slightly risky - play.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, you can play things a little more defensively, make sure that the enemy threat is held back at all times, and above all else not die! Once a Tribute spawns, the team then collectively moves as one towards the location of the item, brawling against any roaming enemy packs in one dedicated fighting force.&lt;/p&gt;
+
+
+&lt;h2&gt;Using Mercenary Camps on Cursed Hollow&lt;/h2&gt;
+
+&lt;p&gt;Assuming you're at an appropriate level, and capturing them is easy enough, consider taking down a Mercenary Camp immediately before picking up your final Tribute. If those wandering packs of mighty minions can get to Cursed fortifications, they'll make very light work of ripping through the enemy team's defences.&lt;/p&gt;
+
+&lt;h2&gt;Cursed Hollow tips&lt;/h2&gt;
+
+&lt;p&gt;- If your team becomes Cursed, keep communication up at all times and check your minimap constantly for signs of a large push. Assemble your team and go and do whatever it takes to hold back the invading force, and defend your defences!&lt;/p&gt;
+
+&lt;p&gt;- If you've been fortunate/skillful enough to ensure that your team has Cursed the enemy, join up as one and charge towards the other side of the map. Don't worry about picking off any enemy Heroes along the way, as your main priority should be to obliterate the forts while they're severely weakened.&lt;/p&gt;
+
+&lt;p&gt;- While Blizzard has done a pretty good job of providing plenty of catch-up mechanisms in Heroes of the Storm, there's no denying the fact that the team that lands the first Curse typically maintains the advantage throughout the remainder of the match.&lt;/p&gt;
+
+&lt;p&gt;- Never assume that the other players understand the importance of gathering Tributes. A few quick, friendly lines tapped out in chat while you're preparing for battle can make all the difference. People will take guidance if you give it in good spirit!&lt;/p&gt;
+&lt;/article&gt;</content><author><name></name></author><summary type="html">Cursed Hollow If you're familiar with any of the other big MOBAs, Cursed Hollow is about as familiar ground as it gets. The three-lane map pays tribute to tradition, but there's a different kind of tribute at play as well. Throughout the match, the map's Raven Lord overseer will announce the spawning of a special Tribute, one that can turn the tide of battle.</summary></entry><entry><title type="html">Green T-Shirt</title><link href="http://localhost:4000/astralis/shop/tshirts/2018/11/23/green-tshirt.html" rel="alternate" type="text/html" title="Green T-Shirt" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>http://localhost:4000/astralis/shop/tshirts/2018/11/23/green-tshirt</id><content type="html" xml:base="http://localhost:4000/astralis/shop/tshirts/2018/11/23/green-tshirt.html">&lt;section class=&quot;shirt-section&quot;&gt;
+&lt;h1&gt;Green T-Shirt&lt;/h1&gt;
+&lt;div class=&quot;shirt-wrapper&quot;&gt;
+&lt;div class=&quot;shirt-showcase&quot;&gt;
+&lt;img src=&quot;/astralis/images/products/t473kellygreen.jpg&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-qualities&quot;&gt;
+&lt;ul class=&quot;a-unordered-list a-vertical a-spacing-none&quot;&gt;
+						&lt;li&gt;
+							100% Cotton;
+						&lt;/li&gt;
+						&lt;li&gt;
+							Imported
+						&lt;/li&gt;
+						&lt;li&gt;
+							Pull On closure
+						&lt;/li&gt;
+						&lt;li&gt;
+							Machine Wash
+						&lt;/li&gt;
+						&lt;li&gt;
+							Ring-spun cotton fabric for extra softness
+						&lt;/li&gt;
+						&lt;li&gt;
+							Athletic fit for comfort
+						&lt;/li&gt;
+						&lt;li&gt;
+							Narrow collar for a more modern fit
+						&lt;/li&gt;
+						&lt;li&gt;
+							Left chest 'C' logo and C patch on sleeve
+						&lt;/li&gt;
+				&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-buttons&quot;&gt;
+&lt;p&gt;6,30$&lt;/p&gt;
+&lt;div class=&quot;add-to-cart&quot;&gt;Add to Cart&lt;/div&gt;
+&lt;div class=&quot;add-to-list&quot;&gt;Add to Wishlist&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;</content><author><name></name></author><summary type="html">Green T-Shirt 100% Cotton; Imported Pull On closure Machine Wash Ring-spun cotton fabric for extra softness Athletic fit for comfort Narrow collar for a more modern fit Left chest 'C' logo and C patch on sleeve 6,30$ Add to Cart Add to Wishlist</summary></entry><entry><title type="html">Black T-Shirt</title><link href="http://localhost:4000/astralis/shop/tshirts/2018/11/23/black-tshirt.html" rel="alternate" type="text/html" title="Black T-Shirt" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>http://localhost:4000/astralis/shop/tshirts/2018/11/23/black-tshirt</id><content type="html" xml:base="http://localhost:4000/astralis/shop/tshirts/2018/11/23/black-tshirt.html">&lt;section class=&quot;shirt-section&quot;&gt;
+&lt;h1&gt;Black T-Shirt&lt;/h1&gt;
+&lt;div class=&quot;shirt-wrapper&quot;&gt;
+&lt;div class=&quot;shirt-showcase&quot;&gt;
+&lt;img src=&quot;/astralis/images/products/81A9r-kog+L._UL1500_.jpg&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-qualities&quot;&gt;
+&lt;ul class=&quot;a-unordered-list a-vertical a-spacing-none&quot;&gt;
+						&lt;li&gt;
+							100% Cotton;
+						&lt;/li&gt;
+						&lt;li&gt;
+							Imported
+						&lt;/li&gt;
+						&lt;li&gt;
+							Pull On closure
+						&lt;/li&gt;
+						&lt;li&gt;
+							Machine Wash
+						&lt;/li&gt;
+						&lt;li&gt;
+							Ring-spun cotton fabric for extra softness
+						&lt;/li&gt;
+						&lt;li&gt;
+							Athletic fit for comfort
+						&lt;/li&gt;
+						&lt;li&gt;
+							Narrow collar for a more modern fit
+						&lt;/li&gt;
+						&lt;li&gt;
+							Left chest 'C' logo and C patch on sleeve
+						&lt;/li&gt;
+				&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-buttons&quot;&gt;
+&lt;p&gt;6,30$&lt;/p&gt;
+&lt;div class=&quot;add-to-cart&quot;&gt;Add to Cart&lt;/div&gt;
+&lt;div class=&quot;add-to-list&quot;&gt;Add to Wishlist&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;</content><author><name></name></author><summary type="html">Black T-Shirt 100% Cotton; Imported Pull On closure Machine Wash Ring-spun cotton fabric for extra softness Athletic fit for comfort Narrow collar for a more modern fit Left chest 'C' logo and C patch on sleeve 6,30$ Add to Cart Add to Wishlist</summary></entry><entry><title type="html">Blue T-Shirt</title><link href="http://localhost:4000/astralis/shop/tshirts/2018/11/23/blue-tshirt.html" rel="alternate" type="text/html" title="Blue T-Shirt" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>http://localhost:4000/astralis/shop/tshirts/2018/11/23/blue-tshirt</id><content type="html" xml:base="http://localhost:4000/astralis/shop/tshirts/2018/11/23/blue-tshirt.html">&lt;section class=&quot;shirt-section&quot;&gt;
+&lt;h1&gt;Blue T-Shirt&lt;/h1&gt;
+&lt;div class=&quot;shirt-wrapper&quot;&gt;
+&lt;div class=&quot;shirt-showcase&quot;&gt;
+&lt;img src=&quot;/astralis/images/products/330px-Blue_Tshirt.jpg&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-qualities&quot;&gt;
+&lt;ul class=&quot;a-unordered-list a-vertical a-spacing-none&quot;&gt;
+						&lt;li&gt;
+							100% Cotton;
+						&lt;/li&gt;
+						&lt;li&gt;
+							Imported
+						&lt;/li&gt;
+						&lt;li&gt;
+							Pull On closure
+						&lt;/li&gt;
+						&lt;li&gt;
+							Machine Wash
+						&lt;/li&gt;
+						&lt;li&gt;
+							Ring-spun cotton fabric for extra softness
+						&lt;/li&gt;
+						&lt;li&gt;
+							Athletic fit for comfort
+						&lt;/li&gt;
+						&lt;li&gt;
+							Narrow collar for a more modern fit
+						&lt;/li&gt;
+						&lt;li&gt;
+							Left chest 'C' logo and C patch on sleeve
+						&lt;/li&gt;
+				&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-buttons&quot;&gt;
+&lt;p&gt;4.99$&lt;/p&gt;
+&lt;div class=&quot;add-to-cart&quot;&gt;Add to Cart&lt;/div&gt;
+&lt;div class=&quot;add-to-list&quot;&gt;Add to Wishlist&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;</content><author><name></name></author><summary type="html">Blue T-Shirt 100% Cotton; Imported Pull On closure Machine Wash Ring-spun cotton fabric for extra softness Athletic fit for comfort Narrow collar for a more modern fit Left chest 'C' logo and C patch on sleeve 4.99$ Add to Cart Add to Wishlist</summary></entry><entry><title type="html">Flash T-Shirt</title><link href="http://localhost:4000/astralis/shop/tshirts/2018/11/23/flash-shirt.html" rel="alternate" type="text/html" title="Flash T-Shirt" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>http://localhost:4000/astralis/shop/tshirts/2018/11/23/flash-shirt</id><content type="html" xml:base="http://localhost:4000/astralis/shop/tshirts/2018/11/23/flash-shirt.html">&lt;section class=&quot;shirt-section&quot;&gt;
+&lt;h1&gt;Flash T-Shirt&lt;/h1&gt;
+&lt;div class=&quot;shirt-wrapper&quot;&gt;
+&lt;div class=&quot;shirt-showcase&quot;&gt;
+&lt;img src=&quot;/astralis/images/products/GUEST_909ac36c-f43e-4923-a9fe-6e2f8c48e94e.jpg&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-qualities&quot;&gt;
+&lt;ul class=&quot;a-unordered-list a-vertical a-spacing-none&quot;&gt;
+						&lt;li&gt;
+							100% Cotton;
+						&lt;/li&gt;
+						&lt;li&gt;
+							Imported
+						&lt;/li&gt;
+						&lt;li&gt;
+							Pull On closure
+						&lt;/li&gt;
+						&lt;li&gt;
+							Machine Wash
+						&lt;/li&gt;
+						&lt;li&gt;
+							Ring-spun cotton fabric for extra softness
+						&lt;/li&gt;
+						&lt;li&gt;
+							Athletic fit for comfort
+						&lt;/li&gt;
+						&lt;li&gt;
+							Narrow collar for a more modern fit
+						&lt;/li&gt;
+						&lt;li&gt;
+							Left chest 'C' logo and C patch on sleeve
+						&lt;/li&gt;
+				&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-buttons&quot;&gt;
+&lt;p&gt;4.99$&lt;/p&gt;
+&lt;div class=&quot;add-to-cart&quot;&gt;Add to Cart&lt;/div&gt;
+&lt;div class=&quot;add-to-list&quot;&gt;Add to Wishlist&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;</content><author><name></name></author><summary type="html">Flash T-Shirt 100% Cotton; Imported Pull On closure Machine Wash Ring-spun cotton fabric for extra softness Athletic fit for comfort Narrow collar for a more modern fit Left chest 'C' logo and C patch on sleeve 4.99$ Add to Cart Add to Wishlist</summary></entry><entry><title type="html">Red T-Shirt</title><link href="http://localhost:4000/astralis/shop/tshirts/2018/11/23/red-tshirt.html" rel="alternate" type="text/html" title="Red T-Shirt" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>http://localhost:4000/astralis/shop/tshirts/2018/11/23/red-tshirt</id><content type="html" xml:base="http://localhost:4000/astralis/shop/tshirts/2018/11/23/red-tshirt.html">&lt;section class=&quot;shirt-section&quot;&gt;
+&lt;h1&gt;Red T-Shirt&lt;/h1&gt;
+&lt;div class=&quot;shirt-wrapper&quot;&gt;
+&lt;div class=&quot;shirt-showcase&quot;&gt;
+&lt;img src=&quot;/astralis/images/products/391089.jpg&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-qualities&quot;&gt;
+&lt;ul class=&quot;a-unordered-list a-vertical a-spacing-none&quot;&gt;
+						&lt;li&gt;
+							100% Cotton;
+						&lt;/li&gt;
+						&lt;li&gt;
+							Imported
+						&lt;/li&gt;
+						&lt;li&gt;
+							Pull On closure
+						&lt;/li&gt;
+						&lt;li&gt;
+							Machine Wash
+						&lt;/li&gt;
+						&lt;li&gt;
+							Ring-spun cotton fabric for extra softness
+						&lt;/li&gt;
+						&lt;li&gt;
+							Athletic fit for comfort
+						&lt;/li&gt;
+						&lt;li&gt;
+							Narrow collar for a more modern fit
+						&lt;/li&gt;
+						&lt;li&gt;
+							Left chest 'C' logo and C patch on sleeve
+						&lt;/li&gt;
+				&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-buttons&quot;&gt;
+&lt;p&gt;4.99$&lt;/p&gt;
+&lt;div class=&quot;add-to-cart&quot;&gt;Add to Cart&lt;/div&gt;
+&lt;div class=&quot;add-to-list&quot;&gt;Add to Wishlist&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;</content><author><name></name></author><summary type="html">Red T-Shirt 100% Cotton; Imported Pull On closure Machine Wash Ring-spun cotton fabric for extra softness Athletic fit for comfort Narrow collar for a more modern fit Left chest 'C' logo and C patch on sleeve 4.99$ Add to Cart Add to Wishlist</summary></entry><entry><title type="html">White T-Shirt</title><link href="http://localhost:4000/astralis/shop/tshirts/2018/11/23/white-tshirt.html" rel="alternate" type="text/html" title="White T-Shirt" /><published>2018-11-23T11:27:55+02:00</published><updated>2018-11-23T11:27:55+02:00</updated><id>http://localhost:4000/astralis/shop/tshirts/2018/11/23/white-tshirt</id><content type="html" xml:base="http://localhost:4000/astralis/shop/tshirts/2018/11/23/white-tshirt.html">&lt;section class=&quot;shirt-section&quot;&gt;
+&lt;h1&gt;White T-Shirt&lt;/h1&gt;
+&lt;div class=&quot;shirt-wrapper&quot;&gt;
+&lt;div class=&quot;shirt-showcase&quot;&gt;
+&lt;img src=&quot;/astralis/images/products/4090-234_5.jpg&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-qualities&quot;&gt;
+&lt;ul class=&quot;a-unordered-list a-vertical a-spacing-none&quot;&gt;
+						&lt;li&gt;
+							100% Cotton;
+						&lt;/li&gt;
+						&lt;li&gt;
+							Imported
+						&lt;/li&gt;
+						&lt;li&gt;
+							Pull On closure
+						&lt;/li&gt;
+						&lt;li&gt;
+							Machine Wash
+						&lt;/li&gt;
+						&lt;li&gt;
+							Ring-spun cotton fabric for extra softness
+						&lt;/li&gt;
+						&lt;li&gt;
+							Athletic fit for comfort
+						&lt;/li&gt;
+						&lt;li&gt;
+							Narrow collar for a more modern fit
+						&lt;/li&gt;
+						&lt;li&gt;
+							Left chest 'C' logo and C patch on sleeve
+						&lt;/li&gt;
+				&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;shirt-buttons&quot;&gt;
+&lt;p&gt;5,00$&lt;/p&gt;
+&lt;div class=&quot;add-to-cart&quot;&gt;Add to Cart&lt;/div&gt;
+&lt;div class=&quot;add-to-list&quot;&gt;Add to Wishlist&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;</content><author><name></name></author><summary type="html">White T-Shirt 100% Cotton; Imported Pull On closure Machine Wash Ring-spun cotton fabric for extra softness Athletic fit for comfort Narrow collar for a more modern fit Left chest 'C' logo and C patch on sleeve 5,00$ Add to Cart Add to Wishlist</summary></entry></feed>
