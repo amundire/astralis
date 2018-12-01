@@ -1,0 +1,30 @@
+.about-page{
+    background: var(--astr-background-color);
+    width: 100%;
+    h1{
+        background: var(--astr-background-topics);
+        text-align: center;
+    }
+    a{
+        color: cyan;
+    }
+    .about-content{
+        margin: 1rem;
+        padding: 1rem;
+        img{
+            width: 100%;
+            margin: 1rem 0;
+            transition: transform 1s;
+                &:hover {
+                    -webkit-box-shadow: 0px 0px 16px 0px rgba(13,255,17,1);
+                    -moz-box-shadow: 0px 0px 16px 0px rgba(13,255,17,1);
+                    box-shadow: 0px 0px 16px 0px rgba(13,255,17,1);
+                    transform: scale(1.1);
+                    cursor: pointer;
+                }
+        }
+        p{
+            max-width: 75rem;
+        }
+    }
+}

@@ -15,6 +15,7 @@ header {
   }
   .site-title{
     padding: 1rem;
+    font-size: 1.3rem;
         transition: all 0.5ms ease-in;
         &:hover > a{
             text-shadow: 0 0 6px white;
@@ -57,7 +58,8 @@ header {
       color: var(--default) !important;
       border-radius: 1px !important;
       background: var(--astr-button-color);
-      transition: all 2s ease-out;
+      height: 60%;
+      line-height: 2;
       &:hover {
         border: 1px solid;
         -webkit-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
@@ -87,6 +89,19 @@ header {
     content: '\f00d';
   }
 
+  .premium-link{
+    width: 9rem;
+    a{
+      height: 2rem;
+      line-height: 2rem;
+      background: linear-gradient(to right,rgba(145, 78, 24, 0.9),rgba(145, 78, 24, 0.9));
+      &:hover{
+       background: linear-gradient(to right,rgba(145, 78, 24, 0.9), rgba(224, 163, 32, 0.9), rgba(145, 78, 24, 0.9)) !important ;
+       cursor: pointer;
+      }
+    }
+  }
+
   
 @keyframes slideIn {
   from {
@@ -109,6 +124,7 @@ header {
   @media screen and (max-width: 800px) {
     .navigation {
       display: none;
+      padding: 2rem 0;
       > ul {
         transition: all 0.3s ease;
         display: block;
@@ -121,6 +137,9 @@ header {
       > ul > li:not(:last-child) {
         padding: 0 0 0.5rem 0;
       }
+    }
+    .premium-link{
+      width: 100% !important;
     }
   }
   

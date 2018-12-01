@@ -1,0 +1,126 @@
+.premium-shop{
+    .fa-check{
+        margin: 0 0.5rem;
+        color: lightgreen;
+        text-indent: -1rem;
+    }
+    .monthly-price{
+        font-size: 3rem;
+        color: #2766ad !important;
+    }
+    .three-months-price{
+        font-size: 3rem;
+        color: #8968ad !important;
+    }
+    .six-months-price{
+        font-size: 3rem;
+        color: #d27a2a !important;
+    }
+    background: var(--astr-background-color);
+    h1{
+        background: var(--astr-background-topics);
+        text-align: center;
+    }
+    .premium-wrapper{
+        display: flex;
+        padding: 2rem;
+        .premium-left{
+            width: 55%;
+            line-height: 2;
+        }
+        .premium-right{
+            width: 45%;
+            margin: 0 4rem;
+            ul{
+                text-indent: -1rem;
+            }
+        }
+    }
+    .premium-options{
+        display: flex;
+        flex-direction: row;
+        .premium-monthly{
+            width: 33%;
+            margin: 1rem;
+            h1{
+                text-align: center;
+            }
+            .monthly-section{
+                padding: 0 2rem 2rem;
+                border: 1px solid var(--astr-background-topics);
+                background: var(--astr-background-welcome);
+                .premium-features{
+                    ul{
+                        text-indent: -1.2rem;
+                    }
+                }
+                .monthly-header{
+                    text-align: center;
+                    margin-bottom: 1rem;
+                    p{
+                        padding-bottom: 0.5;
+                        line-height: 1 !important;
+                    }
+                }
+            }
+            .monthly-button-container{
+                width: 100%;
+                text-align: center;
+                height: 3rem;
+                line-height: 3;
+                background: #2766ad;
+                border: 1px solid;
+                margin-top: 1rem;
+            }
+            .three-months-button-container{
+                width: 100%;
+                text-align: center;
+                height: 3rem;
+                line-height: 3;
+                background: #8968ad !important;
+                border: 1px solid;
+                margin-top: 1rem;
+            }
+            .six-months-button-container{
+                width: 100%;
+                text-align: center;
+                height: 3rem;
+                line-height: 3;
+                background: #d27a2a !important;
+                border: 1px solid;
+                margin-top: 1rem;
+            }
+        }
+    }
+    a{
+        height: 100%;
+        width: 100%;
+        display: block;
+        transition: 0.5s all ease-in-out;
+        &:hover{
+            -webkit-box-shadow: 0px 0px 25px 0px rgba(255,255,255,1);
+            -moz-box-shadow: 0px 0px 25px 0px rgba(255,255,255,1);
+            box-shadow: 0px 0px 25px 0px rgba(255,255,255,1);
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .premium-wrapper{
+        flex-direction: column;
+        .premium-left{
+            width: auto !important;
+        }
+        .premium-right{
+            margin: 0.5rem 2rem !important;
+            width: auto !important;
+        }
+    }
+    .premium-options{
+        flex-direction: column !important;
+        .premium-monthly{
+            width: 100% !important;
+            margin: 0 0 !important;
+        }
+    }
+}
