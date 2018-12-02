@@ -66,6 +66,9 @@ header {
         -moz-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
         box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
       }
+      &:before{
+        margin-right: 0.5rem;
+      }
     }
     li:hover > a {
       -webkit-box-shadow: 0px 0px 25px -1px rgb(255, 255, 255);
